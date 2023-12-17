@@ -1,7 +1,16 @@
+h1, h2, p {
+    color: #0066ae!important;
+}
+
+h2 {
+    font-size: 30px!important;
+}
+
 .carousel-item {
     width: 100%;
-    max-height: 800px;
+    height: 400px!important;
     object-fit: cover;
+    
 }
 
 .bloco {
@@ -9,6 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .titulo {
@@ -17,4 +27,39 @@
     font-size: 2.4em;
     max-width: 800px;
     display: flex;
+}
+
+.carousel-indicators > button {
+    
+    background-color: white!important;
+}
+
+.recrutamento {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    height: 300px;
+}
+
+.text {
+    max-width: 650px;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #0066ae;
+    height: 70px;
+}
+
+.footer p {
+    color: white!important;
+    text-align: center;
+    padding-top: 20px;
 }
